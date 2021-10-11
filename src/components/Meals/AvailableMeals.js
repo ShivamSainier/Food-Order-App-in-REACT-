@@ -36,7 +36,6 @@ function AvailableMeals(props) {
         <section className={classes.meals}> 
         <Card>
             <ul>
-
                 {Meals}
             </ul>
             </Card>
