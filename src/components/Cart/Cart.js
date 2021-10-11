@@ -16,7 +16,7 @@ function Cart(props) {
         
     ].map((item)=><li>{item.name}</li>)}</ul>;
     return (
-        <Model>
+        <Model onClose={props.onHide}>
             {cartItems}
             <div>
                 <span>Total Amount</span>
