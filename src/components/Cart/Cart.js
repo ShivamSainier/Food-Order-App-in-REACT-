@@ -5,8 +5,8 @@ import Model from './Model'
 function Cart(props) {
     const cartItems=
     <ul className={classes['cart-items']}>{
-    [
-        {
+     [
+       {
             id:'c1',
             name:'Sushi',
             amount:2,
